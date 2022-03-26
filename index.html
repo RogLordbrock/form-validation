@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>form validation</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="ui">
+      <div class="slice-one">
+        <div><h1>Contact us</h1></div>
+        <div>
+          <h3 style="font-weight: 300">Adress</h3>
+          <p style="font-weight: 300; color: rgba(255, 255, 255, 0.6)">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+        </div>
+        <div>
+          <h3 style="font-weight: 300">Email</h3>
+          <p style="font-weight: 300; color: rgba(255, 255, 255, 0.6)">
+            example-example@example.example
+          </p>
+        </div>
+        <div>
+          <h3 style="font-weight: 300">Phone number</h3>
+          <p style="font-weight: 300; color: rgba(255, 255, 255, 0.6)">
+            +213 XXX-XXX-XXX
+          </p>
+        </div>
+      </div>
+      <div class="slice-two">
+        <div class="container">
+          <h1>Get in Touch</h1>
+          <input id="name" type="text" placeholder="Name" />
+          <p class="error" id="error_name"></p>
+          <input id="mail" type="text" placeholder="E-mail" />
+          <p class="error" id="error_mail"></p>
+          <input id="phone" type="text" placeholder="Phone number" />
+          <p class="error" id="error_phone"></p>
+          <input id="password" type="password" placeholder="password" />
+          <p class="error" id="error_pass"></p>
+          <button id="btn">Submit</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
